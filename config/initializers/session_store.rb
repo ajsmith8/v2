@@ -1,6 +1,6 @@
 # Be sure to restart your server when you modify this file.
 
-V1::Application.config.session_store :cookie_store, key: '_v1_session'
+Assoc::Application.config.session_store :cookie_store, key: '_assoc_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information

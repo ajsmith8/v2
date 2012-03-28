@@ -1,4 +1,4 @@
-V1::Application.routes.draw do
+Assoc::Application.routes.draw do
   resources :users do
     member do
       get :following, :followers
